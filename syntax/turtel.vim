@@ -3,7 +3,7 @@ if exists("b:current_syntax")
 endif
 
 syntax keyword turtelKeyword print read srun exit
-syntax keyword turtelKeyword add sub mul div nowequ
+syntax keyword turtelKeyword add sub mul div nowequ mod
 syntax keyword turtelGotos goto gototag
 syntax keyword turtelIf if
 syntax keyword turtelIfOps eq gt ls ne
