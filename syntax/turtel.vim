@@ -3,8 +3,8 @@ if exists("b:current_syntax")
 endif
 
 syntax keyword turtelKeyword print read srun exit
-syntax keyword turtelKeyword goto gototag
-syntax keyword turtelOps add sub mul div nowequ
+syntax keyword turtelKeyword add sub mul div nowequ
+syntax keyword turtelGotos goto gototag
 syntax keyword turtelIf if
 syntax keyword turtelIfOps eq gt ls ne
 syntax keyword turtelDataStructures num str tof
@@ -15,7 +15,7 @@ syntax match turtelLexer "\v\@.*$"
 
 
 highlight link turtelKeyword Keyword
-highlight link turtelOps Function
+highlight link turtelGotos Function
 highlight link turtelIfOps Special
 highlight link turtelIf Statement
 highlight link turtelDataStructures Type
