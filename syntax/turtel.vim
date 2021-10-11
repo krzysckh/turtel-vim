@@ -12,7 +12,7 @@ syntax keyword turtelConstant true false TRUE FALSE NULL __OS __newline __space 
 
 syntax match turtelComment "\v#.*$"
 syntax region turtelString start=/\v:str:/ end=/\v:/
-syntax match turtelLexer "\v@.*$"
+syntax match turtelLexer "\v\@.*$"
 
 
 highlight link turtelKeyword Keyword
