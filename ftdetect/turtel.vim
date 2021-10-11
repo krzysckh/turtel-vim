@@ -1,1 +1,1 @@
-autocmd BufRead,BufNewFile *.trl,*.turtel set filetype=duckscript
+autocmd BufRead,BufNewFile *.trl,*.turtel set filetype=turtel
