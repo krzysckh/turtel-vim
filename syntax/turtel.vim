@@ -6,7 +6,7 @@ syntax keyword turtelKeyword print read srun exit
 syntax keyword turtelKeyword add sub mul div nowequ mod
 syntax keyword turtelGotos goto gototag
 syntax keyword turtelIf if
-syntax keyword turtelIfOps eq gt ls ne
+syntax keyword turtelIfOps eq gt lt ne
 syntax keyword turtelDataStructures num str tof
 syntax keyword turtelConstant true false TRUE FALSE NULL __OS __newline __space __SPACE
 
